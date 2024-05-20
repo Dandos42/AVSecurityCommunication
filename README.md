@@ -20,7 +20,10 @@ Nejprve je nutné stáhnutí aplikace, vložení programů na vhodné zařízen�
 - Vývojové prostředí Eclipse: https://www.eclipse.org/downloads/
 
 ## Použití
-
+Po spuštění programu, je uživatel přivítán v menu s několika možnostmi. První možnost zobrazuje základní informace o projektu, včetně jména autora a popisu projektu. Tato sekce umožňuje uživateli získat základní přehled o projektu. Druhá a třetí možnost umožňují uživateli spustit nezabezpečenou nebo zabezpečenou komunikaci pomocí MQTT. Pokud uživatel vybere možnost druhou dojde
+k navázání nezabezpečené komunikace klienta publishera nebo subsribera s MQTT brokerem. Volba závisí na tom, jestli je spuštěn program pro teleoperační centrum nebo autonomní vozidlo. Třetí volba na rozdíl od druhé pracuje se zabezpečeným spojením za použití protokolu TLS. Čtvrtá a pátá volba menu umožňují uživateli spustit komunikaci pomocí CoAP.
+Opět zde máme možnost nezabezpečeného a zabezpečeného spojení, kde zabezpečené spojení využívá protokol DTLS. Kód programu TeleoperateServer představuje CoAP server. Naopak kód programu AVClient simuluje roli 
+CoAP klienta, který se připojuje k serveru.
 ## Licence
 Tento projekt je licencován pod Eclipse Public License 2.0. Obsahuje knihovnya konfigurační soubor MQTT brokera Eclipse Mosquitto licencované pod následujícími licencemi:
 - Eclipse Californium: [EPL 2.0]
