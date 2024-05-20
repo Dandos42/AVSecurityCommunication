@@ -1,4 +1,4 @@
-# ApplicationForRemoteDriving
+# AVSecurityCommunication
 
 Tento projekt je licencován pod Eclipse Public License (EPL) 2.0. Obsahuje knihovny licencované pod následujícími licencemi:
 
