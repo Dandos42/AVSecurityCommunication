@@ -7,7 +7,9 @@ Tento projekt byl vytovřen v rámci bakalářské práce. Projekt poskytuje kon
  - TeleoperateServer: Program simulující teleopreační centrum (server) pro vzdálené řízení vozidel
  - AVClient: Program simulující autonomní vozidlo (klienta), jež se připojuje k teleoprečnímu centru
  - CertECDSA: Certifikáty a klíče certifikační autority, MQTT brokera Mosquitto, MQTT klientů, CoAP serveru a Coap klienta vytvořených algoritmem ECDSA s eliptickou křivkou prime256v1 a hashovací funkcí sha256 ve formátu .crt a p.12
- -  - CertRSA: Certifikáty a klíče certifikační autority, MQTT brokera Mosquitto, MQTT klientů, CoAP serveru a Coap klienta vytvořených algoritmem RSA 2048 b ve formátu .crt a p.12
+ - CertRSA: Certifikáty a klíče certifikační autority, MQTT brokera Mosquitto, MQTT klientů, CoAP serveru a Coap klienta vytvořených algoritmem RSA 2048 b ve formátu .crt a p.12
+ - mosquitto: Konfigurační soubor Brokera Mosquitto, certifikáty brokera a soubor passwd obsahující přihlašovací údaje
+ - Text_Prace.pdf : Text bakalářské práce 
 
 ## Instalace 
 
