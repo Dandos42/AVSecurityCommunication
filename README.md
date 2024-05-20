@@ -1,7 +1,7 @@
 # AVSecurityCommunication
 
 ## Popis
-Tento projekt byl vytovřen v rámci bakalářské práce. Projekt představuje aplikaci skládájící se ze dvou samostatných programů, které lze implementovat na dvě různá zařízení například na stolní počítač a notebook. Program TeleoperateServer simuluje teleoperační centrum, zatímco program AVclient představuje autonomní vozidlo. Jedná se o konzolovou aplikaci bez grafického rozhraní. Architektura je typu klient-server. Teleoperační centrum systému slouží k odesílání binárních souborů, které představují příkazy a data. Jeho úkolem je předávat tyto příkazy klientovi čili autonomnímu vozidlu prostřednictvím zvoleného protokolu. Klient tyto soubory následně uloží. Na této programové logice jsou následně implementovány protokoly MQTT a CoAP. 
+Tento projekt byl vytovřen v rámci bakalářské práce. Projekt představuje aplikaci skládájící se ze dvou samostatných programů, které lze implementovat na dvě různá zařízení například na stolní počítač a notebook. Program TeleoperateServer simuluje teleoperační centrum, zatímco program AVclient představuje autonomní vozidlo. Jedná se o konzolovou aplikaci bez grafického rozhraní. Architektura je typu klient-server. Teleoperační centrum systému slouží k odesílání binárních souborů, které představují příkazy a data. Jeho úkolem je předávat tyto příkazy klientovi čili autonomnímu vozidlu prostřednictvím zvoleného protokolu. Klient tyto soubory následně uloží. Na této programové logice jsou následně implementovány protokoly MQTT a CoAP.
 
 ## Obsah 
  - TeleoperateServer: Program simulující teleopreační centrum (server) pro vzdálené řízení vozidel
@@ -12,7 +12,8 @@ Tento projekt byl vytovřen v rámci bakalářské práce. Projekt představuje 
  - Text_Prace.pdf : Text bakalářské práce 
 
 ## Instalace 
-Nejprve je nutné stáhnutí aplikace, vložení programů na vhodné zařízení například PC a notebook a vzájemné propojení těchto zařízení přes přepínač. Programy je potřeba naimporotvat do vhodného vývojového prostředí doporučeno je vývojové prostředí Eclipse a přidat potřebné jar soubory knihoven do závislostí a classpath projektu včetně běhové konfigurace. Aby spojení fungovalo je nutné také nakonfigurovat vhodné IP adresy včetně masky podsítě, a pokud je potřeva upravit příchozí a odchozí pravidla firewallu. Výchozí adresy jsou IP adresa 192.168.10.2 pro teleoprační centrum a IP adresa 192.168.10.3 pro autonomní vozidlo. 
+Nejprve je nutné stáhnutí aplikace, vložení programů na vhodné zařízení například PC a notebook a vzájemné propojení těchto zařízení přes přepínač. Programy je potřeba naimporotvat do vhodného vývojového prostředí doporučeno je vývojové prostředí Eclipse a přidat potřebné jar soubory knihoven do závislostí a classpath projektu včetně běhové konfigurace. Aby spojení fungovalo je nutné také nakonfigurovat vhodné IP adresy včetně masky podsítě, a pokud je potřeva upravit příchozí a odchozí pravidla firewallu. Výchozí adresy jsou IP adresa 192.168.10.2 pro teleoprační centrum a IP adresa 192.168.10.3 pro autonomní vozidlo. Poslední nutná součást je stáhnutí brokera Mosquitto a jeho instalace na zařízení, kde budeeme spouštět program Teleoperačního centra.
+
 ## Odkazy
 - Eclipse Mosquitto: https://www.eclipse.org/paho](https://mosquitto.org/download/
 - Eclipse Paho: https://github.com/eclipse/paho.mqtt.java
