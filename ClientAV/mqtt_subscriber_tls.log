@@ -1,0 +1,35 @@
+Communication with the broker has been started:  Time: 2024-05-19T12:53:02.049173200
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T12:53:03.172659900
+Communication with the broken has been terminated:  Time: 2024-05-19T12:53:07.989467800
+
+Communication with the broker has been started:  Time: 2024-05-19T12:53:28.514325600
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T12:53:29.522084
+Communication with the broken has been terminated:  Time: 2024-05-19T12:53:33.815512
+
+Communication with the broker has been started:  Time: 2024-05-19T12:53:49.872877200
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T12:53:50.914877
+Communication with the broken has been terminated:  Time: 2024-05-19T12:53:55.213095700
+
+Communication with the broker has been started:  Time: 2024-05-19T12:54:10.224202900
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T12:54:11.284033800
+Communication with the broken has been terminated:  Time: 2024-05-19T12:54:15.748699100
+
+Communication with the broker has been started:  Time: 2024-05-19T12:54:35.316143800
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T12:54:36.414982600
+Communication with the broken has been terminated:  Time: 2024-05-19T12:54:40.277290300
+
+Communication with the broker has been started:  Time: 2024-05-19T12:55:01.106546
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T12:55:02.121418300
+Communication with the broken has been terminated:  Time: 2024-05-19T12:55:07.059557900
+
+Communication with the broker has been started:  Time: 2024-05-19T12:55:25.939547200
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T12:55:26.993909600
+Communication with the broken has been terminated:  Time: 2024-05-19T12:55:35.061663200
+
+Communication with the broker has been started:  Time: 2024-05-19T12:56:06.280354600
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T12:56:08.753884
+Communication with the broken has been terminated:  Time: 2024-05-19T12:56:12.536296800
+
+Communication with the broker has been started:  Time: 2024-05-19T13:11:30.502467700
+Received file over MQTT with TLS and saved: command_tls1.bin from topic: VehicleComunication Time 2024-05-19T13:11:37.724667500
+Received file over MQTT with TLS and saved: command_tls2.bin from topic: VehicleComunication Time 2024-05-19T13:11:45.713330600
