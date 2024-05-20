@@ -12,7 +12,7 @@ Tento projekt byl vytovřen v rámci bakalářské práce. Projekt představuje 
  - Text_Prace.pdf : Text bakalářské práce 
 
 ## Instalace 
-Nejprve je nutné stáhnutí aplikace, vložení programů na vhodné zařízení například PC a notebook a vzájemné propojení těchto zařízení přes přepínač. Programy je potřeba naimporotvat do vhodného vývojového prostředí doporučeno je vývojové prostředí Eclipse a přidat potřebné jar soubory knihoven do závislostí a classpath projektu včetně běhové konfigurace. 
+Nejprve je nutné stáhnutí aplikace, vložení programů na vhodné zařízení například PC a notebook a vzájemné propojení těchto zařízení přes přepínač. Programy je potřeba naimporotvat do vhodného vývojového prostředí doporučeno je vývojové prostředí Eclipse a přidat potřebné jar soubory knihoven do závislostí a classpath projektu včetně běhové konfigurace. Aby spojení fungovalo je nutné také nakonfigurovat vhodné IP adresy včetně masky podsítě, a pokud je potřeva upravit příchozí a odchozí pravidla firewallu. Výchozí adresy jsou IP adresa 192.168.10.2 pro teleoprační centrum a IP adresa 192.168.10.3 pro autonomní vozidlo. 
 ## Odkazy
 - Eclipse Mosquitto: https://www.eclipse.org/paho](https://mosquitto.org/download/
 - Eclipse Paho: https://github.com/eclipse/paho.mqtt.java
