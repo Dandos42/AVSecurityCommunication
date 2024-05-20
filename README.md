@@ -3,6 +3,11 @@
 ## Popis
 Tento projekt byl vytovřen v rámci bakalářské práce. Projekt poskytuje konzolovou aplikaci skládájící se ze dvou samostatných programů. 
 
+## Odkazy
+- Eclipse Mosquitto: https://www.eclipse.org/paho](https://mosquitto.org/download/
+- Eclipse Paho: https://github.com/eclipse/paho.mqtt.java
+- Eclipse Californium: https://github.com/eclipse-californium/californium
+
 ## Obsah 
  - TeleoperateServer: Program simulující teleopreační centrum (server) pro vzdálené řízení vozidel
  - AVClient: Program simulující autonomní vozidlo (klienta), jež se připojuje k teleoprečnímu centru
